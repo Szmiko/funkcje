@@ -1,11 +1,10 @@
 function getTriangleArea (a, h) {
 	if (a < 0) {
 		console.log('Nieprawidłowa wartość')
-	}
-	if (h < 0) {
+	} else if (h < 0) {
 		console.log('Nieprawidłowa wartość')
+		break;
 	}
-	
 	return a * h / 2;
 }
 
