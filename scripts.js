@@ -1,7 +1,5 @@
 function getTriangleArea (a, h) {
-	if (a < 0) {
-		console.log('Nieprawidłowa wartość')
-	} else if (h < 0) {
+	if (a < 0) && (h < 0) {
 		console.log('Nieprawidłowa wartość')
 		break;
 	}
